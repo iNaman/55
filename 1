@@ -1,0 +1,22 @@
+Modify the following program so it prints two blank lines between each line of text.
+#include <iostream>
+using namespace std;
+int main()
+ {
+ cout << "Two mandolins like creatures in the";
+ cout << "dark";
+ cout << "Creating the agony of ecstasy.";
+ cout << " - George Barker";
+ return 0;
+ }
+ 
+Solution - 
+#include <iostream>
+int main()
+{
+cout << "Two mandolins like creatures in the\n\n\n";
+cout << "dark\n\n\n";
+cout << "Creating the agony of ecstasy.\n\n\n";
+cout << " - George Barker\n\n\n";
+return 0;
+}
